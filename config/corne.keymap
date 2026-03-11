@@ -143,10 +143,10 @@
     // 7 - Macros
                  macro_layer {
                         bindings = <
-   &trans        &trans           &trans        &trans            &trans           &trans                        &trans           &trans           &trans            &trans           &trans   &trans
-   &trans        &trans           &trans        &trans            &trans           &trans                        &trans           &kp LC(LS(F13))  &kp LC(LS(F14))   &kp LC(LS(F15))  &trans   &trans
-   &trans        &trans           &trans        &trans            &trans           &trans                        &trans           &trans           &trans            &trans           &trans   &trans
-                                                &trans            &trans           &trans                        &trans           &trans           &trans
+   &trans        &trans           &trans        &trans            &trans           &trans                        &trans           &trans             &trans              &trans             &trans              &trans
+   &trans        &trans           &trans        &trans            &trans           &trans                        &trans           &hold LC(LS(F13))  &hold LC(LS(F14))   &hold LC(LS(F15))  &hold LC(LS(F16))   &trans
+   &trans        &trans           &trans        &trans            &trans           &trans                        &trans           &trans             &trans              &trans             &trans              &trans
+                                                &trans            &trans           &trans                        &trans           &trans             &trans
                         >;
                 };
 
