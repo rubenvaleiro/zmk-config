@@ -48,27 +48,6 @@
             tap-ms = <0>;
             bindings = <&kp LC(LS(F13))>;
         };
-        mcr_f14: mcr_f14 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <0>;
-            bindings = <&kp LC(LS(F14))>;
-        };
-        mcr_f15: mcr_f15 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <0>;
-            bindings = <&kp LC(LS(F15))>;
-        }; 
-        mcr_f16: mcr_f16 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <0>;
-            bindings = <&kp LC(LS(F16))>;
-        }; 
     };
 };
 / {
@@ -161,7 +140,7 @@
                  macro_layer {
                         bindings = <
    &trans        &trans           &trans        &trans            &trans           &trans                        &trans           &trans             &trans              &trans             &trans              &trans
-   &trans        &trans           &trans        &trans            &trans           &trans                        &trans           &mcr_f13           &mcr_f14            &mcr_f15           &mcr_f16          &trans
+   &trans        &trans           &trans        &trans            &trans           &trans                        &trans           &kp LC(LS(F13))    &kp LC(LS(F14))     &kp LC(LS(F15))    &kp LC(LS(F16))          &trans
    &trans        &trans           &trans        &trans            &trans           &trans                        &trans           &trans             &trans              &trans             &trans              &trans
                                                 &trans            &trans           &trans                        &trans           &trans             &trans
                         >;
