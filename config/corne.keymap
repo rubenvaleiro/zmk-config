@@ -177,7 +177,7 @@
                  macro_layer {
                         bindings = <
    &trans        &trans           &trans        &trans            &trans           &trans                        &trans           &trans             &trans              &trans             &trans              &trans
-   &trans        &trans           &trans        &trans            &trans           &trans                        &trans           &mcr_f13           &mcr_f14            &mcr_f15           &macro_f16          &trans
+   &trans        &trans           &trans        &trans            &trans           &trans                        &trans           &mcr_f13           &mcr_f14            &mcr_f15           &mcr_f16          &trans
    &trans        &trans           &trans        &trans            &trans           &trans                        &trans           &trans             &trans              &trans             &trans              &trans
                                                 &trans            &trans           &trans                        &trans           &trans             &trans
                         >;
