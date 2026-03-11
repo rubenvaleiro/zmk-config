@@ -3,3 +3,7 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3
+    with:
+      pre_build_steps: |
+        echo "Patching util.h"
+        sed -i 's/lv_draw_image_dsc_t/lv_draw_img_dsc_t/g' modules/nice-view-gem/boards/shields/nice_view_gem/widgets/util.h
