@@ -104,7 +104,7 @@
    &ext_power EP_ON &ext_power EP_OFF &trans &trans   &trans   &trans             &msc SCRL_LEFT &msc SCRL_DOWN     &mmv MOVE_UP      &msc SCRL_UP     &msc SCRL_RIGHT  &trans
    &trans           &trans            &trans &trans   &trans   &trans             &trans         &mmv MOVE_LEFT     &mmv MOVE_DOWN    &mmv MOVE_RIGHT  &trans           &trans
    &bootloader      &trans            &trans &trans   &trans   &trans             &mkp MB5       &mkp MB1           &mkp MB2          &mkp MB3         &mkp MB4         &trans
-                                             &trans   &trans   &trans             &trans         &trans             &kp PSCRN
+                                             &trans   &trans   &trans             &trans         &trans             &trans
                         >;
                 };
     // 4 - Flechas
@@ -113,7 +113,7 @@
    &trans  &trans &trans &trans &trans &trans                              &kp LS(LC(UP)) &kp LS(LC(LEFT))  &kp LS(LC(RIGHT)) &kp LS(LC(DOWN))   &trans              &trans
    &trans  &trans &trans &trans &trans &trans                              &kp LEFT       &kp DOWN          &kp UP            &kp RIGHT          &kp LC(NON_US_BSLH) &trans 
    &trans  &trans &trans &trans &trans &trans                              &kp HOME       &kp PG_UP         &kp PG_DN         &kp END            &trans              &trans
-                         &trans &trans &trans                              &trans         &trans            &trans
+                         &trans &trans &trans                              &trans         &trans            &kp PSCRN
                         >;
                 };
     // 5  - Aplicaciones
